@@ -74,7 +74,7 @@ public class SomeOtherTestSuite {
         onView(withId(R.id.changeTextBt)).perform(click());
 
         // Check that the text was changed.
-        onView(withId(R.id.textToBeChanged)).check(matches(withText("bad")));
+        onView(withId(R.id.textToBeChanged)).check(matches(withText("the wrong string!")));
     }
 
     /*@Test
